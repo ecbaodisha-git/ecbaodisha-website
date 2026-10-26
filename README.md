@@ -42,3 +42,12 @@ District members: initially shows district names only. Click a district to revea
 Official association email: ecbaodisha@gmail.com. Contact and membership forms open the visitor’s email app; they do not send automatically.
 
 Update: Chairman photograph removed from management card. Chairman name and title retained.
+
+
+## October 2026 navigation update
+- Home and About combined into one navigation tab: Home & About Us (index.html).
+- Notifications tab added across all pages (notifications.html).
+- Notification page currently displays a placeholder; publish only approved official notices.
+
+## Next Physical Event notification
+The Notifications page displays `Event_Invitation.jpeg` with heading **Next Physical Event**. Upload the image alongside `notifications.html` in the repository root.
