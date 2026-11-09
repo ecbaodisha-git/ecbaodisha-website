@@ -1,6 +1,6 @@
 # ECBA ODISHA Website
 
-Professional responsive static website for the All Odisha Environment Control Broilers Welfare Association.
+Professional responsive static website for the All Odisha Environment Control Broiler Welfare Association.
 
 ## Deploy to GitHub Pages
 1. Upload the **contents** of this folder to the root of your public GitHub repository.

@@ -32,3 +32,12 @@
   .brand small {overflow-wrap:anywhere;}
   .links {z-index:110;}
 }
+
+/* Recent event photo gallery */
+.recent-event-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}
+.recent-event-photo{margin:0;overflow:hidden;border-radius:12px;background:#f5f7f5;border:1px solid #e0e7e0}
+.recent-event-photo a{display:block}
+.recent-event-photo img{display:block;width:100%;height:260px;object-fit:cover;transition:transform .2s ease}
+.recent-event-photo a:hover img{transform:scale(1.025)}
+.recent-event-photo figcaption{font-size:14px;padding:10px 12px;color:#354638}
+@media(max-width:600px){.recent-event-gallery{grid-template-columns:1fr}.recent-event-photo img{height:auto;max-height:340px;object-fit:contain}}
